@@ -23,8 +23,7 @@ const soundcloud = require("./lib/soundcloud");
 const soundcloud2 = require("./lib/soundcloud2");
 const whois = require("./lib/tools/whois");
 const getHeaders = require("./lib/tools/headers");
-const shortlink = require("./lib/tools/shortlink");
-const uploadFile = require("./lib/tools/uploadFile2");
+const uploadFile = require("./lib/tools/uploadFile");
 const minifyjs = require("./lib/tools/minifyjs");
 const siapakahaku = require("./lib/game/siapakahaku");
 const EncryptHTML = require("./lib/tools/enc-html");
@@ -104,7 +103,6 @@ module.exports = {
   tools: {
     whois,
     getHeaders,
-    shortlink,
     uploadFile,
     minifyjs,
     EncryptHTML,
