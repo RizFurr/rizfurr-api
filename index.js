@@ -9,6 +9,7 @@ const fakeua = require("./lib/fakeua");
 const tiktok2 = require("./lib/tiktok2");
 const tiktok = require("./lib/tiktok");
 const igstalk = require("./lib/igstalk");
+const spotify = require("./lib/spotify");
 const carigrup = require("./lib/grupwa");
 const happymod = require("./lib/happymod");
 const kusonime = require("./lib/kusonime");
@@ -19,6 +20,7 @@ const film = require("./lib/film");
 const wallpapercave = require("./lib/wallpapercave");
 const family100 = require("./lib/game/family100");
 const soundcloud = require("./lib/soundcloud");
+const soundcloud2 = require("./lib/soundcloud2");
 const whois = require("./lib/tools/whois");
 const getHeaders = require("./lib/tools/headers");
 const shortlink = require("./lib/tools/shortlink");
@@ -41,7 +43,7 @@ const zippyshare = require("./lib/zippyshare");
 const gempa = require("./lib/infogempa");
 const pindl = require("./lib/pindl");
 const pin = require("./lib/pinsrch");
-const soundcloud2 = require("./lib/soundcloudsearch");
+const soundcloudsearch = require("./lib/soundcloudsearch");
 const textpro = require("./lib/textpro");
 const sfile = require("./lib/sfile");
 const chordlagu = require("./lib/chordlagu");
@@ -61,6 +63,8 @@ module.exports = {
     tiktok,
     tiktok2,
     soundcloud,
+    soundcloud2,
+    spotify,
     instagram,
     mediafire,
     zippyshare,
@@ -84,7 +88,7 @@ module.exports = {
     wall_alphacoders,
     ttstalk,
     pin,
-    soundcloud: soundcloud2,
+    soundcloud: soundcloudseacrh,
     sfile,
     chordlagu,
   },
