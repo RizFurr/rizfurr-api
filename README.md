@@ -1,12 +1,11 @@
 # rizfurr-api
 <div align="center">
-<img src="https://avatars.githubusercontent.com/u/85196372?v=4.jpg" alt="SEKHA" width="170" />
-
+<img src="https://avatars.githubusercontent.com/u/85196372?v=4.jpg" alt="SEKHA" width="150" />
 </div>
 <p align="center">
-  <a href="https://github.com/inirey"><img title="Author" src="https://img.shields.io/badge/Author-SEKHA-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/rizfurr"><img title="Author" src="https://img.shields.io/badge/Author-RizFurr-red.svg?style=for-the-badge&logo=github" />
 <p align="center">
-  <a href="https://github.com/inirey"><img title="Author" src="https://img.shields.io/badge/Author-SEKHA-red.svg?style=for-the-badge&logo=npm" /></a>
+  <a href="https://www.npmjs.com/package/rizfurr-api"><img title="Package" src="https://img.shields.io/badge/Author-rizfurr-api-blue.svg?style=for-the-badge&logo=npm" /></a></a>
 
 
 # Note
