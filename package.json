@@ -1,7 +1,7 @@
 {
-  "name": "caliph-api",
-  "version": "0.8.6",
-  "description": "Simple API by Caliph",
+  "name": "rizfurr-api",
+  "version": "1.2.0",
+  "description": "Simple API by RizFurr",
   "depecrated": false,
   "main": "index.js",
   "directories": {
@@ -14,7 +14,7 @@
     "test": "node test.js"
   },
   "keywords": [
-    "caliph-api",
+    "rizfurr-api",
     "api",
     "rest-api",
     "scraper",
@@ -23,17 +23,17 @@
     "multifunctions",
     "scrapers"
   ],
-  "homepage": "https://npm.caliphapi.com",
+  "homepage": "https://npm.rizfurr.ml",
   "author": {
-    "name": "caliphdev",
-    "email": "admin@caliph.my.id"
+    "name": "RizFurr",
+    "email": "admin@rizfurr.ml",
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caliphdev/caliph-api.git"
+    "url": "git+https://github.com/rizfurr/rizfurr-api.git"
   },
   "bugs": {
-    "url": "https://github.com/caliphdev/caliph-api/issues"
+    "url": "https://github.com/rizfurr/rizfurr-api/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
@@ -48,6 +48,7 @@
     "form-data": "^4.0.0",
     "mathjs": "^10.4.3",
     "ytdl-core": "^4.9.1",
+    "spotifydl-core": "latest",
     "whois": "latest",
     "instatouch": "^2.3.14",
     "mime": "^1.6.0",
