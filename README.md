@@ -1,33 +1,33 @@
-# rizz-api
+# rizfurr-api
 
 # Note
 
 ID</br>
 Jika Ada Bug,</br>
-Silahkan Buat [Issues](https://github.com/rizfurr/rizz-api/issues/new)
+Silahkan Buat [Issues](https://github.com/rizfurr/rizfurr-api/issues/new)
 
 EN</br>
 If there are bugs,</br>
-please create [Issues](https://github.com/rizfurr/rizz-api/issues/new)
+please create [Issues](https://github.com/rizfurr/rizfurr-api/issues/new)
 
 # Installation
 
 ## Latest
 
 ```bash
-$ npm i github:rizfurr/rizz-api
+$ npm i github:rizfurr/rizfurr-api
 ```
 
 ## Npm
 
 ```bash
-$ npm i rizz-api
+$ npm i rizfurr-api
 ```
 
 # Require
 
 ```js
-const api = require("rizz-api");
+const api = require("rizfurr-api");
 ```
 
 # Docs
@@ -110,7 +110,6 @@ api.downloader.soundcloud2(url)
 // Spotify
 api.downloader.spotify(url)
 .then(console.log);
-
 
 // Instagram (Post)
 api.downloader.instagram.post(URL)
@@ -252,13 +251,9 @@ api.tools.whois(domain)
 api.tools.getHeaders(url)
 .then(console.log);
 
-// Shortlink
-api.tools.shortlink(url, custom)
-.then(console.log); // custom (optional, default: random)
-
-// Upload File 2
-api.tools.uploadFile2(Buffer)
-.then(console.log); // upload file to https://www.filezone.cf
+// Upload File
+api.tools.uploadFile(Buffer)
+.then(console.log); // upload file to https://file.rizfurr.ml
 
 // Minifyjs
 api.tools.minifyjs(Code_javascript);
