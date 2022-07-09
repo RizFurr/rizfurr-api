@@ -1,29 +1,33 @@
-# caliph-api
+# rizz-api
 
 # Note
 
 ID</br>
 Jika Ada Bug,</br>
-Silahkan Buat [Issues](https://github.com/caliphdev/caliph-api/issues/new)
+Silahkan Buat [Issues](https://github.com/rizfurr/rizz-api/issues/new)
 
 EN</br>
 If there are bugs,</br>
-please create [Issues](https://github.com/caliphdev/caliph-api/issues/new)
+please create [Issues](https://github.com/rizfurr/rizz-api/issues/new)
 
 # Installation
 
 ## Latest
 
-`npm i github:caliphdev/caliph-api`
+```bash
+$ npm i github:rizfurr/rizz-api
+```
 
 ## Npm
 
-`npm i caliph-api`
+```bash
+$ npm i rizz-api
+```
 
 # Require
 
 ```js
-const api = require("caliph-api");
+const api = require("rizz-api");
 ```
 
 # Docs
@@ -98,6 +102,15 @@ api.downloader.tiktok2(url)
 // SoundCloud
 api.downloader.soundcloud(url)
 .then(console.log);
+
+// SoundCloud 2
+api.downloader.soundcloud2(url)
+.then(console.log);
+
+// Spotify
+api.downloader.spotify(url)
+.then(console.log);
+
 
 // Instagram (Post)
 api.downloader.instagram.post(URL)
@@ -242,10 +255,6 @@ api.tools.getHeaders(url)
 // Shortlink
 api.tools.shortlink(url, custom)
 .then(console.log); // custom (optional, default: random)
-
-// Upload File
-api.tools.uploadFile(Buffer)
-.then(console.log); // upload file to https://uploader.caliph.my.id
 
 // Upload File 2
 api.tools.uploadFile2(Buffer)
