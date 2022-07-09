@@ -87,7 +87,7 @@ module.exports = {
     wall_alphacoders,
     ttstalk,
     pin,
-    soundcloud: soundcloudseacrh,
+    soundcloud: soundcloudsearch,
     sfile,
     chordlagu,
   },
