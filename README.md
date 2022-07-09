@@ -1,6 +1,6 @@
 # rizfurr-api
 <div align="center">
-<img src="https://avatars.githubusercontent.com/u/101236698?s=400&u=ce99f02d685d58b2bc8b381afa7868481515dbe7&v=4" alt="RizFurr" width="168" />
+<img src="https://avatars.githubusercontent.com/u/101236698?s=400&u=ce99f02d685d58b2bc8b381afa7868481515dbe7&v=4" alt="RizFurr" width="169" />
 </div>
 <p align="center">
   <a href="https://github.com/rizfurr"><img title="Author" src="https://img.shields.io/badge/Author-RizFurr-red.svg?style=for-the-badge&logo=github" />
