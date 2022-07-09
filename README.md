@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/rizfurr"><img title="Author" src="https://img.shields.io/badge/Author-RizFurr-red.svg?style=for-the-badge&logo=github" />
 <p align="center">
-  <a href="https://www.npmjs.com/package/rizfurr-api"><img title="Package" src="https://img.shields.io/badge/Author-rizfurr-api-blue.svg?style=for-the-badge&logo=npm" /></a></a>
+  <a href="https://www.npmjs.com/package/rizfurr-api"><img title="Package" src="https://img.shields.io/badge/Author-Module-blue.svg?style=for-the-badge&logo=npm" /></a></a>
 
 
 # Note
